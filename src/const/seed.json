@@ -1,0 +1,2172 @@
+[
+  {
+    "role": [
+      {
+        "id": "b15e85d1-c2d3-4037-8502-75095d3d8d0e",
+        "role_name": "Admin",
+        "created_at": "2023-09-04T01:49:57.420Z",
+        "updated_at": "2023-09-04T03:45:14.368Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b348909-3585-4a78-b4d7-b6aae2b13c29",
+        "role_name": "Manager",
+        "created_at": "2023-09-03T22:43:09.308Z",
+        "updated_at": "2023-09-03T21:52:18.831Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17c3d080-3a93-4048-8d8e-1371673d7cb6",
+        "role_name": "Employee",
+        "created_at": "2023-09-04T13:11:04.913Z",
+        "updated_at": "2023-09-04T02:45:51.249Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81df7891-8361-4c32-b7d1-32d2904445e5",
+        "role_name": "Supervisor",
+        "created_at": "2023-09-04T03:28:02.407Z",
+        "updated_at": "2023-09-04T13:02:53.842Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eea384c0-e0f5-4120-9ff5-1ff3787b1bac",
+        "role_name": "Analyst",
+        "created_at": "2023-09-04T14:43:30.917Z",
+        "updated_at": "2023-09-04T00:13:35.650Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "61e3184a-7210-4603-a6b5-9c422b07690a",
+        "status": "Pending",
+        "created_at": "2023-09-03T22:02:04.176Z",
+        "updated_at": "2023-09-04T01:46:12.440Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5304e06e-549c-4817-b2a3-a1ab66846662",
+        "status": "Accepted",
+        "created_at": "2023-09-04T00:11:30.232Z",
+        "updated_at": "2023-09-04T16:41:58.703Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31f9602f-ec34-452b-81bf-3502dad31b63",
+        "status": "Declined",
+        "created_at": "2023-09-04T07:33:47.778Z",
+        "updated_at": "2023-09-04T12:03:52.928Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed530b5b-9c0e-4f4d-bd99-411696816c51",
+        "status": "Expired",
+        "created_at": "2023-09-03T19:59:54.803Z",
+        "updated_at": "2023-09-04T17:49:42.008Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f564d5d7-2b7a-4b4f-92ea-b862bb01ab50",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T19:19:54.763Z",
+        "updated_at": "2023-09-04T12:54:42.714Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "document": [
+      {
+        "id": "555ff698-fb6b-47c5-98bf-0f225232f45f",
+        "title": "Project Proposal",
+        "content": "This document contains the detailed project proposal.",
+        "created_at": "2023-09-04T08:59:54.059Z",
+        "updated_at": "2023-09-04T08:28:53.821Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "252f778c-deaf-4106-a042-c7f02d8f7990",
+        "title": "Sales Report",
+        "content": "The sales report includes the performance analysis of the previous quarter.",
+        "created_at": "2023-09-04T13:02:50.492Z",
+        "updated_at": "2023-09-04T00:49:08.519Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02daa7bb-6acc-4633-a2f5-dd0e894e9af4",
+        "title": "Training Manual",
+        "content": "The training manual provides step-by-step instructions for using the software.",
+        "created_at": "2023-09-03T23:21:14.288Z",
+        "updated_at": "2023-09-04T14:35:59.385Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0e511de-1e95-4c4e-b5f8-c4bd3876213d",
+        "title": "Product Catalog",
+        "content": "The product catalog showcases our latest offerings.",
+        "created_at": "2023-09-04T04:41:53.321Z",
+        "updated_at": "2023-09-04T11:13:30.628Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "628e8ecf-8852-4401-81fd-7cfc985f6c49",
+        "title": "Financial Statement",
+        "content": "The financial statement presents the company's financial position.",
+        "created_at": "2023-09-04T05:11:37.205Z",
+        "updated_at": "2023-09-04T19:17:24.003Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access": [
+      {
+        "id": "215d721f-a55c-4102-b3dc-bbdf31fe4ac2",
+        "access_type": "Read",
+        "created_at": "2023-09-04T03:12:06.084Z",
+        "updated_at": "2023-09-04T18:40:27.278Z",
+        "document_id": "02daa7bb-6acc-4633-a2f5-dd0e894e9af4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26a016f3-a0aa-4b69-885a-49df3e1b3e1c",
+        "access_type": "Write",
+        "created_at": "2023-09-04T08:15:56.612Z",
+        "updated_at": "2023-09-03T20:47:40.681Z",
+        "document_id": "02daa7bb-6acc-4633-a2f5-dd0e894e9af4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fd24b0a-f46b-4c61-b164-3447553b52d3",
+        "access_type": "Edit",
+        "created_at": "2023-09-04T06:45:57.034Z",
+        "updated_at": "2023-09-03T20:52:35.156Z",
+        "document_id": "b0e511de-1e95-4c4e-b5f8-c4bd3876213d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "514e1f01-1f23-40b7-9776-680b78084330",
+        "access_type": "Delete",
+        "created_at": "2023-09-04T11:39:51.687Z",
+        "updated_at": "2023-09-03T20:50:56.361Z",
+        "document_id": "252f778c-deaf-4106-a042-c7f02d8f7990",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31e94be2-c8dc-4686-807b-c98eb7adf8f9",
+        "access_type": "Admin",
+        "created_at": "2023-09-03T21:08:43.015Z",
+        "updated_at": "2023-09-04T07:47:05.177Z",
+        "document_id": "b0e511de-1e95-4c4e-b5f8-c4bd3876213d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "da4d7dfe-293c-4ff8-a8f4-b78dbb019b0a",
+        "email": "Jerod_Kihn6@yahoo.com",
+        "firstName": "Maia",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66798700",
+        "tenantId": null
+      },
+      {
+        "reference": "e303f3c5-14b4-4470-9066-e51c30509801",
+        "email": "Nichole97@gmail.com",
+        "firstName": "Joy",
+        "lastName": "Pagac",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88949390",
+        "tenantId": null
+      },
+      {
+        "reference": "40d63c37-5807-47e3-b8e4-806e4bcf23c7",
+        "email": "Roosevelt_Johns@gmail.com",
+        "firstName": "Jaclyn",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4826825",
+        "tenantId": null
+      },
+      {
+        "reference": "069f30d7-350f-4c4f-aca1-6a8e79e6499e",
+        "email": "Carmella_Kuphal@hotmail.com",
+        "firstName": "Jaylen",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1061.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3dcc9a16-543d-4a71-8ef6-f990518d74cf",
+        "email": "Elva_Koss@yahoo.com",
+        "firstName": "Dagmar",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91275356",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "0a677199-1ef7-45e3-a2b4-c4a391ec2696",
+        "role_name": "Admin",
+        "created_at": "2023-09-04T17:41:45.826Z",
+        "updated_at": "2023-09-04T00:54:05.182Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bada912-964b-4136-b8a1-32ece5e3c29f",
+        "role_name": "Manager",
+        "created_at": "2023-09-03T23:54:15.694Z",
+        "updated_at": "2023-09-04T10:53:53.533Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ade99642-5ce5-4d9f-a8b6-cd88cf435a41",
+        "role_name": "Employee",
+        "created_at": "2023-09-03T23:48:53.499Z",
+        "updated_at": "2023-09-04T13:32:20.622Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "078d1c5a-0f81-46a7-94e8-3843424d5ac1",
+        "role_name": "Supervisor",
+        "created_at": "2023-09-04T05:07:04.740Z",
+        "updated_at": "2023-09-04T10:23:44.898Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "def16f30-84c2-412b-9e45-f62cf0b9e767",
+        "role_name": "Analyst",
+        "created_at": "2023-09-04T12:08:08.405Z",
+        "updated_at": "2023-09-04T00:58:19.255Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "a833ae24-b137-4660-ba6c-9620c59aa855",
+        "status": "Pending",
+        "created_at": "2023-09-04T11:25:07.641Z",
+        "updated_at": "2023-09-04T16:04:15.303Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bb95a5d2-ac1b-4b1c-a54c-8c20ebd7ce87",
+        "status": "Accepted",
+        "created_at": "2023-09-04T06:18:48.419Z",
+        "updated_at": "2023-09-03T21:53:18.593Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5abbb11-bb24-4a48-a931-00691bd096fd",
+        "status": "Declined",
+        "created_at": "2023-09-04T00:08:43.268Z",
+        "updated_at": "2023-09-04T07:37:51.694Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec0c3d91-2eb5-48ad-ba1e-05764c59c798",
+        "status": "Expired",
+        "created_at": "2023-09-04T01:49:32.893Z",
+        "updated_at": "2023-09-03T23:53:12.530Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9a77566-aadf-45b6-9d7d-f505927220db",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T03:26:53.666Z",
+        "updated_at": "2023-09-04T09:10:46.991Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "document": [
+      {
+        "id": "d84a3e86-eae0-474e-9b92-67e52219ac8c",
+        "title": "Report",
+        "content": "Lorem ipsum dolor sit amet",
+        "created_at": "2023-09-04T11:14:25.278Z",
+        "updated_at": "2023-09-04T12:32:37.696Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b6d000a-8775-4c74-9f1a-b918de5b85bc",
+        "title": "Proposal",
+        "content": "Consectetur adipiscing elit",
+        "created_at": "2023-09-04T12:44:53.113Z",
+        "updated_at": "2023-09-03T20:00:00.502Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d098fea-35fc-4679-b877-3c98e940ccb5",
+        "title": "Contract",
+        "content": "Sed do eiusmod tempor incididunt",
+        "created_at": "2023-09-04T17:46:48.181Z",
+        "updated_at": "2023-09-04T14:22:55.460Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de345d6a-991c-427e-8854-687222ff7ce4",
+        "title": "Presentation",
+        "content": "Ut labore et dolore magna aliqua",
+        "created_at": "2023-09-04T19:03:56.984Z",
+        "updated_at": "2023-09-04T09:39:13.793Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e479593b-a08c-4a67-87d6-40be53cece1c",
+        "title": "Invoice",
+        "content": "Ut enim ad minim veniam",
+        "created_at": "2023-09-04T17:09:38.581Z",
+        "updated_at": "2023-09-04T14:58:10.938Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access": [
+      {
+        "id": "cc9db22a-5d0f-4573-b943-afba94744150",
+        "access_type": "Read",
+        "created_at": "2023-09-04T12:49:06.467Z",
+        "updated_at": "2023-09-04T04:10:59.190Z",
+        "document_id": "5d098fea-35fc-4679-b877-3c98e940ccb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cee52d56-72f6-4460-9ccf-e784a8fa55c7",
+        "access_type": "Write",
+        "created_at": "2023-09-04T03:01:56.795Z",
+        "updated_at": "2023-09-04T09:26:22.108Z",
+        "document_id": "de345d6a-991c-427e-8854-687222ff7ce4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ab552db-7b90-4b28-b5e2-59b2d4405a76",
+        "access_type": "Edit",
+        "created_at": "2023-09-04T01:55:24.383Z",
+        "updated_at": "2023-09-04T16:07:05.207Z",
+        "document_id": "6b6d000a-8775-4c74-9f1a-b918de5b85bc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc88f7bb-658d-458d-a275-5f04ae62d459",
+        "access_type": "Delete",
+        "created_at": "2023-09-04T05:56:11.868Z",
+        "updated_at": "2023-09-03T21:36:30.077Z",
+        "document_id": "5d098fea-35fc-4679-b877-3c98e940ccb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87da1fea-8e59-452b-8008-772058cc04d3",
+        "access_type": "Admin",
+        "created_at": "2023-09-04T15:42:10.953Z",
+        "updated_at": "2023-09-04T11:30:53.522Z",
+        "document_id": "de345d6a-991c-427e-8854-687222ff7ce4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0fc2fd57-2fab-457f-9482-8f09216f4ed6",
+        "email": "Floy_Gleichner63@yahoo.com",
+        "firstName": "Raymundo",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2108843",
+        "tenantId": null
+      },
+      {
+        "reference": "8a4b5846-b3f7-4c78-940d-0213cf519b58",
+        "email": "Jamil.Spencer31@hotmail.com",
+        "firstName": "Catharine",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/845.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3a5fba3d-9348-4f53-a4a3-6e7dfbb9b012",
+        "email": "Camden17@yahoo.com",
+        "firstName": "Matt",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82614346",
+        "tenantId": null
+      },
+      {
+        "reference": "7a1b18a9-155b-4d5a-960b-f3c6f85563df",
+        "email": "Florencio.Baumbach1@gmail.com",
+        "firstName": "Cassidy",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/113.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f99a2eef-b8d2-4e18-9204-7d33350973fd",
+        "email": "Rickie.Kirlin98@hotmail.com",
+        "firstName": "Evan",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/996.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "d33c90f3-8d67-424e-9396-22dcd8f79767",
+        "role_name": "Admin",
+        "created_at": "2023-09-04T12:21:33.877Z",
+        "updated_at": "2023-09-04T15:08:17.292Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae27134e-47db-4993-9953-5d7f24397a79",
+        "role_name": "Manager",
+        "created_at": "2023-09-04T11:38:41.577Z",
+        "updated_at": "2023-09-03T22:05:58.757Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "539bdbc8-e1a8-4f5e-8478-92dcb5f9e70b",
+        "role_name": "Employee",
+        "created_at": "2023-09-04T06:35:24.547Z",
+        "updated_at": "2023-09-04T00:09:14.176Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46f801af-42ac-4047-b84f-30a2e7b4f2d2",
+        "role_name": "Supervisor",
+        "created_at": "2023-09-03T19:37:02.070Z",
+        "updated_at": "2023-09-03T23:03:49.760Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f12b17c-ff04-4064-873c-bfbe0a120396",
+        "role_name": "Team Lead",
+        "created_at": "2023-09-03T23:45:51.624Z",
+        "updated_at": "2023-09-04T06:02:31.624Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "dafd142f-b376-490b-958c-1ede69c26c5d",
+        "status": "Pending",
+        "created_at": "2023-09-04T14:17:15.982Z",
+        "updated_at": "2023-09-04T07:53:05.544Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6836d725-183c-4d92-a2b5-4b2ab9ad3aa1",
+        "status": "Accepted",
+        "created_at": "2023-09-04T12:02:27.796Z",
+        "updated_at": "2023-09-04T12:48:18.734Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cab294bd-7203-4949-817c-cc60188d582d",
+        "status": "Declined",
+        "created_at": "2023-09-04T19:02:16.379Z",
+        "updated_at": "2023-09-04T03:04:13.860Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "396cc0cf-c66e-4b8d-94e3-7dbb530c199c",
+        "status": "Expired",
+        "created_at": "2023-09-03T22:20:30.304Z",
+        "updated_at": "2023-09-03T20:56:03.000Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2b4621d-de7e-4434-97f9-5f4943ee0431",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T02:08:31.448Z",
+        "updated_at": "2023-09-04T15:21:57.813Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "document": [
+      {
+        "id": "699d3282-c015-4a6d-9ee5-72f1a21af638",
+        "title": "Project Proposal",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "created_at": "2023-09-04T15:57:22.970Z",
+        "updated_at": "2023-09-04T18:00:53.857Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de444c69-35db-4c28-8bda-8e4173a3952d",
+        "title": "Sales Report",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "created_at": "2023-09-04T05:09:29.841Z",
+        "updated_at": "2023-09-04T07:54:38.117Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9ae7b8d-4b31-4b4d-ad89-6815ea709829",
+        "title": "Training Manual",
+        "content": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.",
+        "created_at": "2023-09-03T19:57:32.711Z",
+        "updated_at": "2023-09-03T21:53:35.406Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fa6c4d81-ec37-41c4-8523-b452593e1f22",
+        "title": "Product Catalog",
+        "content": "earum laboriosam velit",
+        "created_at": "2023-09-04T17:32:52.462Z",
+        "updated_at": "2023-09-04T10:40:04.583Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "203ffeeb-7b14-4749-a0b1-47b07ea9e316",
+        "title": "Financial Statement",
+        "content": "dignissimos asperiores aperiam",
+        "created_at": "2023-09-04T01:33:18.010Z",
+        "updated_at": "2023-09-04T16:00:26.308Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access": [
+      {
+        "id": "f1cd8fdb-fcf1-4178-9941-57211ddedfc9",
+        "access_type": "Read",
+        "created_at": "2023-09-04T06:53:13.869Z",
+        "updated_at": "2023-09-04T04:36:05.879Z",
+        "document_id": "de444c69-35db-4c28-8bda-8e4173a3952d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b4466d0-682e-4a4f-aa06-9524277869d8",
+        "access_type": "Write",
+        "created_at": "2023-09-04T03:54:34.682Z",
+        "updated_at": "2023-09-03T20:52:59.649Z",
+        "document_id": "203ffeeb-7b14-4749-a0b1-47b07ea9e316",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "404abcee-2bfc-4a93-ae24-cad41584fafd",
+        "access_type": "Edit",
+        "created_at": "2023-09-04T09:14:08.003Z",
+        "updated_at": "2023-09-04T10:23:32.677Z",
+        "document_id": "699d3282-c015-4a6d-9ee5-72f1a21af638",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7a91bc5-af69-4c6e-bcb7-5381f061a062",
+        "access_type": "Delete",
+        "created_at": "2023-09-03T20:54:27.429Z",
+        "updated_at": "2023-09-04T15:03:51.501Z",
+        "document_id": "699d3282-c015-4a6d-9ee5-72f1a21af638",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33e3917f-f545-4840-8442-4fbc73853668",
+        "access_type": "Admin",
+        "created_at": "2023-09-04T01:29:29.824Z",
+        "updated_at": "2023-09-03T23:51:30.755Z",
+        "document_id": "de444c69-35db-4c28-8bda-8e4173a3952d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1443f513-7d94-48bc-85b5-089c095a26c6",
+        "email": "Modesto.Beatty@gmail.com",
+        "firstName": "Francis",
+        "lastName": "Crist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1169.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "053e24fe-4db8-4467-a399-249d9ea95487",
+        "email": "Ferne24@yahoo.com",
+        "firstName": "Maritza",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/253.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fdd072a2-1047-4188-ab3a-ad30cdc0ba6c",
+        "email": "Jerad.Volkman75@gmail.com",
+        "firstName": "Maggie",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94384214",
+        "tenantId": null
+      },
+      {
+        "reference": "f24cf275-a8a1-4454-a98f-ce0e6b7deb7a",
+        "email": "Leanna.Parisian8@gmail.com",
+        "firstName": "Marcellus",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40715645",
+        "tenantId": null
+      },
+      {
+        "reference": "39f9dc62-5f52-46c7-b844-ba795210ec39",
+        "email": "Ethel_Wehner@yahoo.com",
+        "firstName": "Felicita",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34365839",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "b947052e-6413-4c6e-ae9a-c33d03a61034",
+        "role_name": "Admin",
+        "created_at": "2023-09-04T12:18:32.794Z",
+        "updated_at": "2023-09-04T15:37:59.878Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fddf26f2-ce64-46b6-84f2-5c503866bc4c",
+        "role_name": "Manager",
+        "created_at": "2023-09-04T04:18:35.800Z",
+        "updated_at": "2023-09-04T15:40:07.556Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab4b42b9-3607-4a94-924f-e712d2c8c4f3",
+        "role_name": "Employee",
+        "created_at": "2023-09-04T05:57:45.812Z",
+        "updated_at": "2023-09-04T03:14:51.307Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2707409-8901-418d-a001-9324c35c6baa",
+        "role_name": "Supervisor",
+        "created_at": "2023-09-04T10:49:17.019Z",
+        "updated_at": "2023-09-04T08:53:03.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84467220-938e-4c3c-a612-2962f51bba7b",
+        "role_name": "Team Lead",
+        "created_at": "2023-09-04T01:39:13.054Z",
+        "updated_at": "2023-09-04T09:29:24.655Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "f68ba86c-9515-4474-953a-dcd7da535f92",
+        "status": "Pending",
+        "created_at": "2023-09-04T09:10:56.058Z",
+        "updated_at": "2023-09-04T02:59:18.304Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73a0d96f-066d-4c14-b194-6bca2c7c44da",
+        "status": "Accepted",
+        "created_at": "2023-09-04T10:56:13.645Z",
+        "updated_at": "2023-09-04T17:48:18.106Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4e15fe9-9a76-4277-96ef-0666f7868238",
+        "status": "Declined",
+        "created_at": "2023-09-04T01:01:40.654Z",
+        "updated_at": "2023-09-04T10:22:06.890Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b52bab9-1b7c-4551-a5c8-275486849a16",
+        "status": "Expired",
+        "created_at": "2023-09-04T03:13:38.911Z",
+        "updated_at": "2023-09-04T12:02:54.951Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "feebd812-d27f-4d1f-9945-f72e269316af",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T06:58:45.282Z",
+        "updated_at": "2023-09-04T10:10:31.932Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "document": [
+      {
+        "id": "d906c384-c5cd-44d5-b805-2b047b7756ce",
+        "title": "Annual Report",
+        "content": "Lorem ipsum dolor sit amet",
+        "created_at": "2023-09-04T17:53:36.680Z",
+        "updated_at": "2023-09-04T06:19:25.848Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fa58a29-2663-4487-a3f6-dc7036a90329",
+        "title": "Project Proposal",
+        "content": "Consectetur adipiscing elit",
+        "created_at": "2023-09-04T11:04:24.091Z",
+        "updated_at": "2023-09-04T13:20:17.559Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5d4d237-e604-4306-8515-197ae9f72f71",
+        "title": "User Manual",
+        "content": "Sed do eiusmod tempor incididunt",
+        "created_at": "2023-09-03T23:37:44.094Z",
+        "updated_at": "2023-09-04T14:51:51.437Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8218cd01-6fa2-4c60-b7d5-e09b4d9d116c",
+        "title": "Marketing Campaign",
+        "content": "Ut labore et dolore magna aliqua",
+        "created_at": "2023-09-03T23:38:17.728Z",
+        "updated_at": "2023-09-04T04:49:49.611Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2411181a-7d08-4f79-9a96-f3c9cfa47dad",
+        "title": "Financial Statement",
+        "content": "Ut enim ad minim veniam",
+        "created_at": "2023-09-03T21:47:52.800Z",
+        "updated_at": "2023-09-03T22:18:34.108Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access": [
+      {
+        "id": "42d6ffc4-6b06-4a03-a353-c5f2856ec1a2",
+        "access_type": "Read",
+        "created_at": "2023-09-04T02:55:34.283Z",
+        "updated_at": "2023-09-04T05:53:49.127Z",
+        "document_id": "d5d4d237-e604-4306-8515-197ae9f72f71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f7eedfd-88c1-4da5-9a36-236d3164b639",
+        "access_type": "Write",
+        "created_at": "2023-09-04T15:57:13.573Z",
+        "updated_at": "2023-09-04T14:55:55.614Z",
+        "document_id": "8218cd01-6fa2-4c60-b7d5-e09b4d9d116c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d82af8f-4960-45e2-8745-0443ed4820fe",
+        "access_type": "Delete",
+        "created_at": "2023-09-04T18:39:21.920Z",
+        "updated_at": "2023-09-04T18:00:55.817Z",
+        "document_id": "d906c384-c5cd-44d5-b805-2b047b7756ce",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4c43c73-2873-4201-a90a-d4f3728829c6",
+        "access_type": "Execute",
+        "created_at": "2023-09-03T21:39:43.032Z",
+        "updated_at": "2023-09-03T20:02:14.966Z",
+        "document_id": "d5d4d237-e604-4306-8515-197ae9f72f71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d96b202b-75cd-42ef-973e-fe38d6d0c402",
+        "access_type": "Admin",
+        "created_at": "2023-09-04T16:50:31.211Z",
+        "updated_at": "2023-09-04T18:45:24.259Z",
+        "document_id": "8218cd01-6fa2-4c60-b7d5-e09b4d9d116c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9cd40993-8ae9-4ed5-b6f9-3db4acd09582",
+        "email": "Marina_Prosacco85@yahoo.com",
+        "firstName": "Abagail",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11045730",
+        "tenantId": null
+      },
+      {
+        "reference": "a652afdc-1425-4b0b-bee0-546d2f899315",
+        "email": "Roma_Robel92@gmail.com",
+        "firstName": "Henri",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/420.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8fdea8c2-e3a1-4bf7-9e61-38da3e3c4aa7",
+        "email": "Jayce.Douglas@gmail.com",
+        "firstName": "Misael",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94828659",
+        "tenantId": null
+      },
+      {
+        "reference": "6603c89b-9bdc-49dc-b5a2-c9dca772e80d",
+        "email": "Asa.Ferry66@hotmail.com",
+        "firstName": "Assunta",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42959790",
+        "tenantId": null
+      },
+      {
+        "reference": "da6f79ab-1bce-43da-89e6-d8ee88af030b",
+        "email": "Cary.Fahey14@hotmail.com",
+        "firstName": "Alphonso",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60426189",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "afc19ad0-0a9f-4e71-b6d5-50cbcc2479bd",
+        "role_name": "Admin",
+        "created_at": "2023-09-04T07:52:16.843Z",
+        "updated_at": "2023-09-04T07:02:56.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51a9846d-25cf-4d38-94b3-17f96e77fea3",
+        "role_name": "Manager",
+        "created_at": "2023-09-03T22:41:36.282Z",
+        "updated_at": "2023-09-04T12:07:28.782Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b813d05a-1151-4293-b0f7-8521de88cfe8",
+        "role_name": "Employee",
+        "created_at": "2023-09-03T20:58:56.510Z",
+        "updated_at": "2023-09-04T17:30:12.062Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce25b84d-e0e8-4b14-a9c6-0173b0184fda",
+        "role_name": "Supervisor",
+        "created_at": "2023-09-04T03:53:49.644Z",
+        "updated_at": "2023-09-03T20:29:43.161Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21665bc7-f499-42c0-a4d6-b2edcfa21bb6",
+        "role_name": "Intern",
+        "created_at": "2023-09-04T17:03:50.249Z",
+        "updated_at": "2023-09-04T04:42:57.888Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "3210637a-b6f4-467f-8fd5-f3da76fef71b",
+        "status": "Pending",
+        "created_at": "2023-09-03T21:11:33.204Z",
+        "updated_at": "2023-09-04T02:57:07.712Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b99c4575-64f6-4a3c-9f09-330f6f9f8778",
+        "status": "Accepted",
+        "created_at": "2023-09-03T20:16:36.819Z",
+        "updated_at": "2023-09-04T15:31:07.179Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ce379cc-4b7d-49e4-80c5-ed33ec979476",
+        "status": "Declined",
+        "created_at": "2023-09-04T01:36:18.514Z",
+        "updated_at": "2023-09-04T00:44:13.542Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34cfa384-fd2a-47a1-ba4d-6b1e2fe6a0e2",
+        "status": "Expired",
+        "created_at": "2023-09-04T01:16:34.909Z",
+        "updated_at": "2023-09-03T22:42:31.436Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afedda67-7463-4e5c-bcff-d985954a5607",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T13:12:09.938Z",
+        "updated_at": "2023-09-04T13:32:44.437Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "document": [
+      {
+        "id": "998ee273-e91d-4942-b58a-d3ef847fadb3",
+        "title": "Report",
+        "content": "This is the content of the document.",
+        "created_at": "2023-09-04T15:21:57.671Z",
+        "updated_at": "2023-09-04T07:06:48.182Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49a46040-ac77-453f-8dd2-e042bc52d7cd",
+        "title": "Proposal",
+        "content": "Lorem ipsum dolor sit amet.",
+        "created_at": "2023-09-04T04:43:27.776Z",
+        "updated_at": "2023-09-04T10:51:09.435Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfe15ba5-388b-4d8b-a98f-7b4e51bffe58",
+        "title": "Contract",
+        "content": "The document contains important information.",
+        "created_at": "2023-09-04T18:43:55.672Z",
+        "updated_at": "2023-09-04T18:22:39.144Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3df6d8b-5d83-4990-812a-4f972ae5c7f1",
+        "title": "Presentation",
+        "content": "Please review and provide feedback.",
+        "created_at": "2023-09-04T05:07:38.378Z",
+        "updated_at": "2023-09-04T02:25:41.443Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70b91d3b-9399-4d75-9536-64885b697bbd",
+        "title": "Policy",
+        "content": "Attached is the updated version.",
+        "created_at": "2023-09-04T09:24:26.188Z",
+        "updated_at": "2023-09-03T21:42:08.502Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access": [
+      {
+        "id": "abc8dab9-1d69-41aa-bc9c-c32ac41557d3",
+        "access_type": "Read",
+        "created_at": "2023-09-04T15:37:10.463Z",
+        "updated_at": "2023-09-04T13:36:32.001Z",
+        "document_id": "b3df6d8b-5d83-4990-812a-4f972ae5c7f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b62b9bfe-1430-469d-92d1-1f6c76e7a261",
+        "access_type": "Write",
+        "created_at": "2023-09-04T12:53:08.593Z",
+        "updated_at": "2023-09-04T07:40:02.057Z",
+        "document_id": "49a46040-ac77-453f-8dd2-e042bc52d7cd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5eb85e6b-d069-47f5-a8d1-7a0791f55276",
+        "access_type": "Edit",
+        "created_at": "2023-09-04T00:56:39.928Z",
+        "updated_at": "2023-09-03T21:43:58.923Z",
+        "document_id": "dfe15ba5-388b-4d8b-a98f-7b4e51bffe58",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4d43bc70-b176-4937-82e2-7be6453da0bd",
+        "access_type": "Delete",
+        "created_at": "2023-09-04T02:56:02.077Z",
+        "updated_at": "2023-09-03T23:40:14.789Z",
+        "document_id": "998ee273-e91d-4942-b58a-d3ef847fadb3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7107d0e-b6d1-4943-8b67-996d09903231",
+        "access_type": "View",
+        "created_at": "2023-09-04T13:17:29.304Z",
+        "updated_at": "2023-09-04T15:20:47.072Z",
+        "document_id": "dfe15ba5-388b-4d8b-a98f-7b4e51bffe58",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "98b8d89c-58f2-4a78-a5e8-a97470dc35bd",
+        "email": "Lea_McKenzie@yahoo.com",
+        "firstName": "Cassie",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/375.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1f8b5b18-ab98-4886-8bcb-b8e7cfbb722c",
+        "email": "Eusebio46@gmail.com",
+        "firstName": "Brandy",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95544625",
+        "tenantId": null
+      },
+      {
+        "reference": "34f56adf-8295-442c-8725-422c83c1446f",
+        "email": "Jayme94@yahoo.com",
+        "firstName": "Westley",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/310.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "67c3a4a0-dffd-4d32-9971-634737153895",
+        "email": "Kaitlin.Collins@gmail.com",
+        "firstName": "Myrl",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82653930",
+        "tenantId": null
+      },
+      {
+        "reference": "dcfb0917-770c-4ec7-998b-484d34387c07",
+        "email": "Michel.Veum99@yahoo.com",
+        "firstName": "Orlando",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/612.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "de81eb02-30bb-4977-8f1b-18c3e0f66a9e",
+        "role_name": "Admin",
+        "created_at": "2023-09-04T00:56:09.273Z",
+        "updated_at": "2023-09-04T12:50:24.148Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b85f561-ac1c-43d3-89b1-2e05de4bb25c",
+        "role_name": "Manager",
+        "created_at": "2023-09-03T23:11:09.192Z",
+        "updated_at": "2023-09-03T20:08:08.675Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8839d90-cf5a-43ae-9f14-e43e64f1a2db",
+        "role_name": "Employee",
+        "created_at": "2023-09-04T13:35:52.678Z",
+        "updated_at": "2023-09-04T14:26:08.143Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c97d4f37-8db8-4f61-868b-dc9513243495",
+        "role_name": "Supervisor",
+        "created_at": "2023-09-04T04:56:03.488Z",
+        "updated_at": "2023-09-04T09:55:36.771Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a271b628-ada9-4cda-a1f3-f0b68fcd5e4e",
+        "role_name": "Team Lead",
+        "created_at": "2023-09-03T23:10:05.072Z",
+        "updated_at": "2023-09-04T18:41:20.842Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "4e4691e0-aa4c-4150-8693-19f0c490ca30",
+        "status": "Pending",
+        "created_at": "2023-09-04T09:05:50.295Z",
+        "updated_at": "2023-09-03T21:27:02.228Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9cf56693-41db-4467-80d7-b0e36cb502b4",
+        "status": "Accepted",
+        "created_at": "2023-09-03T22:11:56.594Z",
+        "updated_at": "2023-09-04T12:08:00.991Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3ca7e43-dc18-4789-8a45-c41d6cc7ab04",
+        "status": "Declined",
+        "created_at": "2023-09-04T14:49:52.701Z",
+        "updated_at": "2023-09-04T11:56:00.133Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92490b56-ccb7-4189-ad4a-270fa5358548",
+        "status": "Expired",
+        "created_at": "2023-09-03T22:43:28.237Z",
+        "updated_at": "2023-09-04T16:52:17.472Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3193437d-8808-4d32-b54f-adeb1337275b",
+        "status": "Cancelled",
+        "created_at": "2023-09-03T19:38:23.936Z",
+        "updated_at": "2023-09-04T16:10:09.113Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "document": [
+      {
+        "id": "25e5c4fe-5030-4a67-8cf2-8cdf790da379",
+        "title": "Project Proposal",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "created_at": "2023-09-04T19:19:02.111Z",
+        "updated_at": "2023-09-04T07:12:31.276Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dfc4729-23fa-43cd-bf17-e4cb2711c8ba",
+        "title": "Meeting Minutes",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+        "created_at": "2023-09-04T19:13:14.180Z",
+        "updated_at": "2023-09-04T13:56:18.559Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2dc8818-860b-43b1-9851-b691994ec34d",
+        "title": "Sales Report",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "created_at": "2023-09-04T03:51:09.591Z",
+        "updated_at": "2023-09-04T16:45:40.960Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0120694-1cd8-4efc-a644-ec0bf13fb124",
+        "title": "Training Manual",
+        "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "created_at": "2023-09-04T18:47:31.374Z",
+        "updated_at": "2023-09-04T00:17:34.606Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e66a9c27-b510-42de-b451-21b87454a500",
+        "title": "Product Specification",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "created_at": "2023-09-04T13:15:06.620Z",
+        "updated_at": "2023-09-04T01:33:39.413Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access": [
+      {
+        "id": "edee470b-e31c-4d3d-b23c-ce475cf4cb34",
+        "access_type": "Read",
+        "created_at": "2023-09-04T19:06:55.202Z",
+        "updated_at": "2023-09-04T00:56:39.579Z",
+        "document_id": "5dfc4729-23fa-43cd-bf17-e4cb2711c8ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a99e4601-f96d-41f0-a1f8-271bd5b84b17",
+        "access_type": "Write",
+        "created_at": "2023-09-04T03:18:02.371Z",
+        "updated_at": "2023-09-04T16:36:38.790Z",
+        "document_id": "b2dc8818-860b-43b1-9851-b691994ec34d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6df8f14b-f37b-4ed1-987a-893508c1747a",
+        "access_type": "Edit",
+        "created_at": "2023-09-04T11:54:41.475Z",
+        "updated_at": "2023-09-03T21:29:49.349Z",
+        "document_id": "5dfc4729-23fa-43cd-bf17-e4cb2711c8ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e627cff-502c-4aa9-89cc-3630a4c0e0b9",
+        "access_type": "Delete",
+        "created_at": "2023-09-03T23:32:54.367Z",
+        "updated_at": "2023-09-04T08:28:41.109Z",
+        "document_id": "b2dc8818-860b-43b1-9851-b691994ec34d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed9f2d93-e0d9-4731-bfb2-53cc5116d55a",
+        "access_type": "Admin",
+        "created_at": "2023-09-04T03:13:12.768Z",
+        "updated_at": "2023-09-04T06:56:38.543Z",
+        "document_id": "b2dc8818-860b-43b1-9851-b691994ec34d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fb514294-0734-4eae-951e-b52f6e42598f",
+        "email": "Leila_Ferry8@yahoo.com",
+        "firstName": "Tyra",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/690.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8405ea61-f2e4-47ae-a1ea-51a1a455cd1b",
+        "email": "Malinda_Moore93@yahoo.com",
+        "firstName": "Madison",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/733.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "82f260b0-82f0-4111-b4fb-e05404011ed7",
+        "email": "Ambrose.Will54@yahoo.com",
+        "firstName": "Isabella",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9061668",
+        "tenantId": null
+      },
+      {
+        "reference": "fea8471f-23ef-40c4-94ad-9c4e150a3634",
+        "email": "Erin_Dickinson67@gmail.com",
+        "firstName": "Cielo",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/446.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "715b0672-3a02-4bcb-98a5-e96f663018c9",
+        "email": "Napoleon24@gmail.com",
+        "firstName": "Yadira",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45623943",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "4884bc14-849e-4774-85d8-3529b3b75d14",
+        "role_name": "Admin",
+        "created_at": "2023-09-04T01:33:17.207Z",
+        "updated_at": "2023-09-04T07:50:58.952Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21f7215f-7f07-4e61-ab43-015eb7f8b300",
+        "role_name": "Manager",
+        "created_at": "2023-09-04T02:54:20.976Z",
+        "updated_at": "2023-09-04T06:50:24.754Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad73a090-dfa2-43ca-b275-b3235664c79c",
+        "role_name": "Employee",
+        "created_at": "2023-09-04T17:46:09.345Z",
+        "updated_at": "2023-09-03T22:16:00.461Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cde3847-249e-4591-ba4f-46a6c6e151d9",
+        "role_name": "Supervisor",
+        "created_at": "2023-09-03T21:47:14.884Z",
+        "updated_at": "2023-09-04T07:25:02.330Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c93e40a0-2325-497b-93ad-28d7381fa76d",
+        "role_name": "Analyst",
+        "created_at": "2023-09-04T12:16:17.052Z",
+        "updated_at": "2023-09-04T16:26:00.990Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "2d1d34b5-494b-4fd2-af2e-8175d1e1055c",
+        "status": "Pending",
+        "created_at": "2023-09-04T03:39:05.149Z",
+        "updated_at": "2023-09-04T12:35:07.378Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b207ee98-8406-4c00-90e3-520dd4cd0297",
+        "status": "Accepted",
+        "created_at": "2023-09-04T19:13:43.567Z",
+        "updated_at": "2023-09-04T03:16:28.017Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "890a2699-f06d-4236-8124-8aa24a6d395a",
+        "status": "Declined",
+        "created_at": "2023-09-04T11:22:30.445Z",
+        "updated_at": "2023-09-04T13:35:09.530Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e8d44a6-ee71-4480-b72c-2d5f0cc427a0",
+        "status": "Expired",
+        "created_at": "2023-09-03T22:45:25.464Z",
+        "updated_at": "2023-09-04T13:48:48.867Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74d7335c-ef02-4a2e-b46c-158c10b4871d",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T11:22:22.709Z",
+        "updated_at": "2023-09-04T09:49:41.900Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "document": [
+      {
+        "id": "45c01e1c-8967-42c2-aa12-98d5d207453a",
+        "title": "Report",
+        "content": "Lorem ipsum dolor sit amet",
+        "created_at": "2023-09-04T13:30:59.324Z",
+        "updated_at": "2023-09-04T16:40:01.547Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0db583d-bda8-431b-a92e-c45949a32083",
+        "title": "Proposal",
+        "content": "Consectetur adipiscing elit",
+        "created_at": "2023-09-04T01:55:04.796Z",
+        "updated_at": "2023-09-04T19:05:01.776Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4750042-9777-415e-8a93-ec5205be0300",
+        "title": "Contract",
+        "content": "Sed do eiusmod tempor incididunt",
+        "created_at": "2023-09-04T08:38:30.774Z",
+        "updated_at": "2023-09-04T02:17:20.378Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99e5dd98-2852-45f7-92bc-38f0c71374aa",
+        "title": "Presentation",
+        "content": "Ut labore et dolore magna aliqua",
+        "created_at": "2023-09-03T22:14:47.336Z",
+        "updated_at": "2023-09-03T23:47:16.132Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0696dac9-2d4f-4a3b-80e7-e4c8b79622e4",
+        "title": "Agreement",
+        "content": "Ut enim ad minim veniam",
+        "created_at": "2023-09-03T20:47:54.119Z",
+        "updated_at": "2023-09-04T06:54:50.438Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access": [
+      {
+        "id": "98e9593a-5427-459f-b3df-c72963cb50dc",
+        "access_type": "Read",
+        "created_at": "2023-09-04T01:14:52.692Z",
+        "updated_at": "2023-09-03T21:44:58.184Z",
+        "document_id": "99e5dd98-2852-45f7-92bc-38f0c71374aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a4f743f-a1e6-4592-93b8-97e0abdb57b6",
+        "access_type": "Write",
+        "created_at": "2023-09-04T19:03:46.675Z",
+        "updated_at": "2023-09-04T08:14:39.316Z",
+        "document_id": "0696dac9-2d4f-4a3b-80e7-e4c8b79622e4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80d4735b-bff6-4c57-9d31-bd984a6dcb35",
+        "access_type": "Edit",
+        "created_at": "2023-09-04T18:57:01.090Z",
+        "updated_at": "2023-09-04T14:21:57.141Z",
+        "document_id": "c0db583d-bda8-431b-a92e-c45949a32083",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "415d22d2-2aa5-4016-ad47-593a74c2cef7",
+        "access_type": "Delete",
+        "created_at": "2023-09-04T06:36:11.497Z",
+        "updated_at": "2023-09-04T01:17:18.462Z",
+        "document_id": "c4750042-9777-415e-8a93-ec5205be0300",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "755dc81c-ad7c-40ba-8f86-601dbcbdcd5b",
+        "access_type": "Admin",
+        "created_at": "2023-09-04T15:29:53.633Z",
+        "updated_at": "2023-09-04T14:08:39.679Z",
+        "document_id": "c4750042-9777-415e-8a93-ec5205be0300",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cff55e18-b8d0-415f-bb9a-ae6edb08478e",
+        "email": "Lauryn25@yahoo.com",
+        "firstName": "Nakia",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81431433",
+        "tenantId": null
+      },
+      {
+        "reference": "fa92a785-129f-4b2e-9b28-769afb1e8cfc",
+        "email": "Charlie97@yahoo.com",
+        "firstName": "Mercedes",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54878204",
+        "tenantId": null
+      },
+      {
+        "reference": "a2aef04c-0783-4420-85b3-04c1b95af842",
+        "email": "Alfred.Schneider@yahoo.com",
+        "firstName": "Crystal",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/649.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1cff465c-0cf5-48b7-988f-793bf0d9b61a",
+        "email": "Anne_Oberbrunner8@yahoo.com",
+        "firstName": "Loy",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58552047",
+        "tenantId": null
+      },
+      {
+        "reference": "ea50d6ad-402c-40fb-afd1-fc3e0496ab51",
+        "email": "Jennings70@hotmail.com",
+        "firstName": "Frida",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/541.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "246a1ac5-4321-4316-baea-eb2c5e5d9656",
+        "role_name": "Admin",
+        "created_at": "2023-09-04T18:28:10.409Z",
+        "updated_at": "2023-09-04T13:14:11.337Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a35d5774-e616-479a-afc5-e8638dc322c9",
+        "role_name": "Manager",
+        "created_at": "2023-09-04T13:56:56.159Z",
+        "updated_at": "2023-09-04T18:02:04.288Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc12b931-1321-47c8-8dde-ad6588272da7",
+        "role_name": "Employee",
+        "created_at": "2023-09-04T17:15:30.855Z",
+        "updated_at": "2023-09-04T12:29:54.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d48f1ef-d3ea-4a8f-ad70-5a6b5045db37",
+        "role_name": "Supervisor",
+        "created_at": "2023-09-04T15:37:51.687Z",
+        "updated_at": "2023-09-04T19:26:19.225Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f238f006-2192-4059-b6d5-ba342d758a3e",
+        "role_name": "Team Lead",
+        "created_at": "2023-09-04T02:18:19.018Z",
+        "updated_at": "2023-09-03T22:40:30.030Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "756e9e94-8273-42f9-a81f-ae460864bad2",
+        "status": "Pending",
+        "created_at": "2023-09-04T03:22:29.543Z",
+        "updated_at": "2023-09-04T04:35:06.057Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b551bf53-6920-4501-94ed-9c8301290794",
+        "status": "Accepted",
+        "created_at": "2023-09-04T01:05:52.054Z",
+        "updated_at": "2023-09-04T06:56:03.070Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0dba37e1-243c-4087-99f3-caa70467ea92",
+        "status": "Declined",
+        "created_at": "2023-09-04T10:09:53.544Z",
+        "updated_at": "2023-09-04T03:47:09.706Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6424d75-b3fa-449c-8bc9-c6e49ccf806e",
+        "status": "Expired",
+        "created_at": "2023-09-04T02:16:40.377Z",
+        "updated_at": "2023-09-03T21:14:49.689Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cc011f2-15da-4b10-9bb8-03d98c1d545a",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T05:46:45.708Z",
+        "updated_at": "2023-09-04T08:04:23.341Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "document": [
+      {
+        "id": "a2df5b48-4d22-4df8-9f97-941d66bc4add",
+        "title": "Project Proposal",
+        "content": "This document contains important information.",
+        "created_at": "2023-09-04T07:13:31.159Z",
+        "updated_at": "2023-09-04T16:06:41.241Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a2de771-f36c-47ed-a912-6d2506ddb911",
+        "title": "Sales Report",
+        "content": "Please review the attached document.",
+        "created_at": "2023-09-04T19:14:59.584Z",
+        "updated_at": "2023-09-03T21:21:14.722Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ed9390f-dee9-4603-8e96-f4e83ad5b93e",
+        "title": "Meeting Minutes",
+        "content": "The document is confidential.",
+        "created_at": "2023-09-04T11:47:44.963Z",
+        "updated_at": "2023-09-04T05:27:46.120Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3c0b8a3-ca40-48d2-89ef-95c1431f4052",
+        "title": "Product Specification",
+        "content": "The document is for internal use only.",
+        "created_at": "2023-09-04T17:02:07.040Z",
+        "updated_at": "2023-09-04T10:17:11.852Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c5254c4-b0c0-4373-a429-a53a2f4646f2",
+        "title": "Training Manual",
+        "content": "Please sign and return the document.",
+        "created_at": "2023-09-04T13:13:44.473Z",
+        "updated_at": "2023-09-04T15:50:13.988Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access": [
+      {
+        "id": "37a2f909-e58e-4760-87ba-311a0d89b44f",
+        "access_type": "Read",
+        "created_at": "2023-09-04T10:59:21.936Z",
+        "updated_at": "2023-09-03T19:37:58.885Z",
+        "document_id": "1a2de771-f36c-47ed-a912-6d2506ddb911",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "80f28406-68a1-40a4-a7d6-5e16601b0d5a",
+        "access_type": "Write",
+        "created_at": "2023-09-04T11:57:45.576Z",
+        "updated_at": "2023-09-04T04:39:30.056Z",
+        "document_id": "1a2de771-f36c-47ed-a912-6d2506ddb911",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "764d8e03-c32a-4485-a428-83c2f36cbfc6",
+        "access_type": "Edit",
+        "created_at": "2023-09-04T06:48:26.633Z",
+        "updated_at": "2023-09-04T03:38:32.936Z",
+        "document_id": "a2df5b48-4d22-4df8-9f97-941d66bc4add",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a78db105-1b18-483a-a671-f6b6c244121b",
+        "access_type": "Delete",
+        "created_at": "2023-09-04T08:52:15.948Z",
+        "updated_at": "2023-09-04T06:00:13.093Z",
+        "document_id": "2ed9390f-dee9-4603-8e96-f4e83ad5b93e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cba60ef-f455-4e3b-8971-c9b75bfa646c",
+        "access_type": "View",
+        "created_at": "2023-09-04T18:13:34.286Z",
+        "updated_at": "2023-09-03T21:17:38.086Z",
+        "document_id": "1a2de771-f36c-47ed-a912-6d2506ddb911",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4df6abf4-2575-45f8-8942-815d13bac49a",
+        "email": "Kiana22@gmail.com",
+        "firstName": "Lempi",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15626999",
+        "tenantId": null
+      },
+      {
+        "reference": "3c50d923-9c10-49b9-bea8-d6c179e59cfd",
+        "email": "Laila.Mraz50@yahoo.com",
+        "firstName": "Hettie",
+        "lastName": "Wisoky-Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/95.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b4dc4f8-bcce-429e-bf55-6cc0b0e1be67",
+        "email": "Isaias.Bartell-Quigley21@hotmail.com",
+        "firstName": "Kamryn",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89925669",
+        "tenantId": null
+      },
+      {
+        "reference": "4b7832ff-dbaa-46e4-aac2-ac9cea691483",
+        "email": "Liliana90@yahoo.com",
+        "firstName": "Brielle",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/891.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8320084c-4f83-4dd2-8b7a-e25313bd8837",
+        "email": "Carlee.Gleason83@yahoo.com",
+        "firstName": "Lon",
+        "lastName": "Upton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30555938",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "eda0365b-c7a8-439e-bdbd-72dfcff0cf46",
+        "role_name": "Admin",
+        "created_at": "2023-09-04T11:13:20.448Z",
+        "updated_at": "2023-09-03T22:57:19.812Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eda7a6a6-4af4-4d84-a444-f0b281e54681",
+        "role_name": "Manager",
+        "created_at": "2023-09-04T11:55:29.136Z",
+        "updated_at": "2023-09-04T12:05:56.713Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "388a55b2-26d3-4766-82f6-f6fab0a52387",
+        "role_name": "Employee",
+        "created_at": "2023-09-04T18:35:16.119Z",
+        "updated_at": "2023-09-04T16:15:08.030Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5583b9c3-1c9f-4e0f-818c-4a00eaec3e4d",
+        "role_name": "Supervisor",
+        "created_at": "2023-09-03T23:50:43.859Z",
+        "updated_at": "2023-09-04T09:03:06.619Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "410baacb-c365-4522-8fa9-09814e829ba0",
+        "role_name": "Team Lead",
+        "created_at": "2023-09-04T02:53:45.749Z",
+        "updated_at": "2023-09-04T17:06:50.461Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "e29b2327-91f0-4bac-a37a-b5d525dde9ff",
+        "status": "Pending",
+        "created_at": "2023-09-03T20:51:16.275Z",
+        "updated_at": "2023-09-03T23:21:25.284Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "340bfe9f-bc90-4fd7-8700-336db73a462c",
+        "status": "Accepted",
+        "created_at": "2023-09-04T18:04:21.531Z",
+        "updated_at": "2023-09-04T18:31:59.299Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eccc6220-6fd7-4944-8795-0b82f15d9a4e",
+        "status": "Declined",
+        "created_at": "2023-09-03T20:34:51.600Z",
+        "updated_at": "2023-09-04T07:14:20.706Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da7e216f-6104-4396-8508-6ac0a4d023ef",
+        "status": "Expired",
+        "created_at": "2023-09-04T06:56:45.242Z",
+        "updated_at": "2023-09-04T00:50:14.717Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c18afba8-4773-461e-96d9-84a733e9dbb3",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T13:12:54.667Z",
+        "updated_at": "2023-09-03T21:24:50.616Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "document": [
+      {
+        "id": "71fb835c-6b7f-4c7e-96d5-cd58d2ef1dbe",
+        "title": "Project Proposal",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "created_at": "2023-09-03T19:41:12.867Z",
+        "updated_at": "2023-09-04T16:50:58.426Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1d7456b-41ae-4e60-a976-258c61970f24",
+        "title": "Sales Report",
+        "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem.",
+        "created_at": "2023-09-04T15:49:03.572Z",
+        "updated_at": "2023-09-03T20:43:12.618Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "793006cc-54cc-410e-a29e-6d45957502ff",
+        "title": "Training Manual",
+        "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+        "created_at": "2023-09-04T00:30:07.356Z",
+        "updated_at": "2023-09-04T11:07:17.704Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aac94406-2eef-47ac-9202-31b53d8db672",
+        "title": "Marketing Plan",
+        "content": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
+        "created_at": "2023-09-03T22:15:30.711Z",
+        "updated_at": "2023-09-04T09:11:40.508Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32765993-9273-4247-83d5-a301dbaa0893",
+        "title": "Financial Statement",
+        "content": "Consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.",
+        "created_at": "2023-09-04T18:05:43.403Z",
+        "updated_at": "2023-09-04T09:51:13.219Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access": [
+      {
+        "id": "6c88921e-beb8-481f-bd88-f21563e81bc6",
+        "access_type": "Read",
+        "created_at": "2023-09-04T08:29:59.246Z",
+        "updated_at": "2023-09-04T18:33:47.328Z",
+        "document_id": "71fb835c-6b7f-4c7e-96d5-cd58d2ef1dbe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2e06f38-5af2-4e29-9262-11969ba4e1c7",
+        "access_type": "Write",
+        "created_at": "2023-09-04T13:59:44.376Z",
+        "updated_at": "2023-09-04T11:25:45.879Z",
+        "document_id": "793006cc-54cc-410e-a29e-6d45957502ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95879eed-bb6a-4c1c-aec0-f462c2721774",
+        "access_type": "Edit",
+        "created_at": "2023-09-04T13:39:08.730Z",
+        "updated_at": "2023-09-03T21:30:29.326Z",
+        "document_id": "aac94406-2eef-47ac-9202-31b53d8db672",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b7b84e1-ea76-458e-89b0-f746b8450d63",
+        "access_type": "Delete",
+        "created_at": "2023-09-04T17:13:47.016Z",
+        "updated_at": "2023-09-03T23:39:07.472Z",
+        "document_id": "32765993-9273-4247-83d5-a301dbaa0893",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30f3efed-eec5-4736-88d9-895336351a68",
+        "access_type": "Admin",
+        "created_at": "2023-09-04T14:25:07.955Z",
+        "updated_at": "2023-09-04T11:01:25.220Z",
+        "document_id": "d1d7456b-41ae-4e60-a976-258c61970f24",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e3279387-9427-40b2-9af7-6c38870f649e",
+        "email": "Layla.Frami-Dach@hotmail.com",
+        "firstName": "Narciso",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40872216",
+        "tenantId": null
+      },
+      {
+        "reference": "c3bb9096-85b7-4b18-a27a-2c40c8b66e56",
+        "email": "Stella_Thompson@yahoo.com",
+        "firstName": "Elise",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/562.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "97b11865-1682-41f3-9197-96228beda236",
+        "email": "Enos71@hotmail.com",
+        "firstName": "Prudence",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89987476",
+        "tenantId": null
+      },
+      {
+        "reference": "c9c1d3ef-8d55-4f68-a3be-70d2f81b91da",
+        "email": "Jeromy_Ruecker79@yahoo.com",
+        "firstName": "Gerhard",
+        "lastName": "Paucek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/696.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6ba1102f-13aa-4755-a1bf-344a06c94510",
+        "email": "Elliot.Russel@yahoo.com",
+        "firstName": "Lisa",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37793878",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "d5acfea7-f8c8-41a1-bdc7-02540e543af1",
+        "role_name": "Admin",
+        "created_at": "2023-09-04T09:00:34.624Z",
+        "updated_at": "2023-09-03T22:54:36.259Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02cb60e9-1284-4aef-82aa-79be06b3b486",
+        "role_name": "Manager",
+        "created_at": "2023-09-03T20:08:41.361Z",
+        "updated_at": "2023-09-04T13:51:00.606Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82248493-4404-410a-9a26-419bd358a40b",
+        "role_name": "Employee",
+        "created_at": "2023-09-04T06:32:31.647Z",
+        "updated_at": "2023-09-03T19:47:41.997Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7fb5fdaf-17e5-4a05-856c-45224abe2984",
+        "role_name": "Supervisor",
+        "created_at": "2023-09-04T13:37:05.735Z",
+        "updated_at": "2023-09-04T03:08:04.547Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "202a08b9-36a3-4698-8cd4-06a2e2f18ad1",
+        "role_name": "Team Lead",
+        "created_at": "2023-09-04T01:49:42.547Z",
+        "updated_at": "2023-09-04T15:53:02.219Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "invitation": [
+      {
+        "id": "1f059037-4052-4e18-b5e3-c1712df73c15",
+        "status": "Pending",
+        "created_at": "2023-09-04T01:40:31.922Z",
+        "updated_at": "2023-09-04T15:39:49.179Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b9c44c0-5d2a-491a-8d31-72e94caf0f24",
+        "status": "Accepted",
+        "created_at": "2023-09-04T04:40:31.514Z",
+        "updated_at": "2023-09-04T12:28:54.370Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d83b308-059e-4696-8f65-784b3901835c",
+        "status": "Declined",
+        "created_at": "2023-09-04T18:30:32.263Z",
+        "updated_at": "2023-09-04T04:07:45.794Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2dff59f-12e5-457f-a588-9f3f0e18f84d",
+        "status": "Expired",
+        "created_at": "2023-09-04T15:23:01.079Z",
+        "updated_at": "2023-09-04T06:11:43.011Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d3b34653-44a7-44f0-879f-e02407dd94fc",
+        "status": "Cancelled",
+        "created_at": "2023-09-04T07:38:45.802Z",
+        "updated_at": "2023-09-04T16:13:18.934Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "document": [
+      {
+        "id": "a910f69e-9643-45ec-91f6-02331dbbc065",
+        "title": "Project Proposal",
+        "content": "Lorem ipsum dolor sit amet",
+        "created_at": "2023-09-04T17:46:58.114Z",
+        "updated_at": "2023-09-03T20:09:46.815Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a58cffae-4001-454e-9c6f-e0dd7caa2656",
+        "title": "Sales Report",
+        "content": "Consectetur adipiscing elit",
+        "created_at": "2023-09-04T01:39:16.080Z",
+        "updated_at": "2023-09-04T01:51:57.335Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c8a0743-3cde-4b1d-a383-742dd320d0ff",
+        "title": "Meeting Minutes",
+        "content": "Sed do eiusmod tempor incididunt",
+        "created_at": "2023-09-04T04:23:02.981Z",
+        "updated_at": "2023-09-04T18:52:33.365Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8c036d6-3e8e-4d65-ae81-9a4c5919dc61",
+        "title": "Training Manual",
+        "content": "Ut labore et dolore magna aliqua",
+        "created_at": "2023-09-04T02:46:52.521Z",
+        "updated_at": "2023-09-04T15:06:05.785Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81a3f4c1-4f51-4945-91bf-1fccb42fb381",
+        "title": "Product Catalog",
+        "content": "Ut enim ad minim veniam",
+        "created_at": "2023-09-04T17:50:33.828Z",
+        "updated_at": "2023-09-03T23:10:50.714Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "access": [
+      {
+        "id": "065d743f-f9ba-4f80-93fa-c155030940b6",
+        "access_type": "Read",
+        "created_at": "2023-09-03T21:34:36.705Z",
+        "updated_at": "2023-09-04T17:28:01.282Z",
+        "document_id": "a910f69e-9643-45ec-91f6-02331dbbc065",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21ae2b3c-b6f8-4fc9-b2ce-94ebab2172dc",
+        "access_type": "Write",
+        "created_at": "2023-09-04T09:27:13.932Z",
+        "updated_at": "2023-09-04T18:30:35.833Z",
+        "document_id": "81a3f4c1-4f51-4945-91bf-1fccb42fb381",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ece601a-9f98-438f-a379-72450cacef37",
+        "access_type": "Edit",
+        "created_at": "2023-09-04T14:30:53.774Z",
+        "updated_at": "2023-09-04T14:40:23.210Z",
+        "document_id": "81a3f4c1-4f51-4945-91bf-1fccb42fb381",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c3250ed-4d1f-4e89-9b3a-4e8197c4962b",
+        "access_type": "Delete",
+        "created_at": "2023-09-04T14:12:47.496Z",
+        "updated_at": "2023-09-04T00:36:50.539Z",
+        "document_id": "a910f69e-9643-45ec-91f6-02331dbbc065",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a03f94de-c5fb-4d37-ac94-5c106310b422",
+        "access_type": "Admin",
+        "created_at": "2023-09-04T18:16:10.512Z",
+        "updated_at": "2023-09-03T23:06:50.062Z",
+        "document_id": "e8c036d6-3e8e-4d65-ae81-9a4c5919dc61",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0ce0061e-a811-49bb-9a37-c85fca5b107e",
+        "email": "Kyle_Wolff34@gmail.com",
+        "firstName": "Allie",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33095422",
+        "tenantId": null
+      },
+      {
+        "reference": "883bdc33-635d-4f5e-b732-13a115eafd26",
+        "email": "Milford69@gmail.com",
+        "firstName": "Sid",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58879341",
+        "tenantId": null
+      },
+      {
+        "reference": "4446588f-ed2b-437c-8ebf-dd460b16a1a0",
+        "email": "Sherman92@gmail.com",
+        "firstName": "Carmela",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/192.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "17f41727-6e75-44ad-9270-efdf714ea87a",
+        "email": "Moriah29@gmail.com",
+        "firstName": "Marion",
+        "lastName": "Mueller-Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/691.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b6f802e7-c2ef-48e6-bcc8-349259804f30",
+        "email": "Mollie1@hotmail.com",
+        "firstName": "Kamryn",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/470.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
